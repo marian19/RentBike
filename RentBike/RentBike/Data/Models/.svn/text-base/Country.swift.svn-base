@@ -1,0 +1,22 @@
+//
+//  File.swift
+//  Yalllo
+//
+//  Created by Marian on 8/16/17.
+//  Copyright © 2017 Marian. All rights reserved.
+//
+
+import Foundation
+import SwiftyJSON
+
+struct Country {
+    let id: Int
+    let countryCode: String
+    let countryName: String
+    
+    init(json: JSON) {
+        id = json[DataConstants.CountryData.id].intValue
+        countryCode = json[DataConstants.CountryData.codeCode].stringValue
+        countryName = json[DataConstants.CountryData.countryName].stringValue
+    }
+}

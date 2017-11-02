@@ -1,0 +1,14 @@
+//
+//  Colors.swift
+//  Yalllo
+//
+//  Created by Marian on 7/22/17.
+//  Copyright © 2017 Marian. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+struct Colors {
+   static let redColor = UIColor(red:0.87, green:0.12, blue:0.24, alpha:1.00)
+}
